@@ -1,0 +1,10 @@
+html 
+    head
+        title= title
+    body 
+        form(role="form", action='/api/login', method='POST')
+            label(for="name") Name:
+            input#name.form-control(type='text', placeholder='Enter name here', name='name')
+            label(for="password") Password:
+            input#name.form-control(type='password', placeholder='Enter password here', name='password')
+            input(type="submit", value="Login")
