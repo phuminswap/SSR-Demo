@@ -19,6 +19,7 @@ app.get('/home', (req, res) => {
     const { name } = req.query;
     if (!name) {
         res.render('home.pug')
+        return;
     }
     res.render('home.pug', { name: name })
 })
@@ -39,7 +40,8 @@ app.post('/api/login', async (req, res) => {
             return;
         }
     }
-    res.status(400).send("User not exist")
+    res.redirect(`/home/`);
+
 })
 
 
