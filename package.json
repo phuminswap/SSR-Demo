@@ -11,9 +11,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "^7.27.2",
-    "@babel/core": "^7.27.4",
-    "@babel/plugin-transform-react-jsx": "^7.27.1",
     "@types/jest": "^30.0.0",
     "html-webpack-plugin": "^5.6.3",
     "jest": "^30.0.2",
@@ -24,7 +21,6 @@
     "webpack-dev-server": "^5.2.2"
   },
   "dependencies": {
-    "babel": "^5.8.38",
     "react-scripts": "^5.0.1"
   }
 }
