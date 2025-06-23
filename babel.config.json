@@ -1,0 +1,11 @@
+// babel.config.json
+{
+  "plugins": [
+    [
+      "@babel/plugin-transform-react-jsx",
+      {
+        "pragma": "Didact.createElement"
+      }
+    ]
+  ]
+}
